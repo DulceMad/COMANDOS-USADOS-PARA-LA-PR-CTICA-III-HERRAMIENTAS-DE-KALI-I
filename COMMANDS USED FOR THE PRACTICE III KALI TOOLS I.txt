@@ -1,0 +1,27 @@
+COMMANDS USED FOR THE PRACTICE III KALI TOOLS I
+
+The following commands were used in the Root Terminal Emulator terminal:
+
+wifite                           -->    is a tool to audit WEP or WPA encrypted wireless networks.
+nmap -v -A 192.0.0.0(ip address) -->    command to search for enabled ports within the IP address.
+ftp                              -->    command to enable file transfer.
+open                             -->    command to access inside the FTP server.
+(to)(ip address)                 -->    command to access the IP address of the FTP server.
+ls                               -->    command to access the list of files.
+get(filename.corresponding extension)(name to identify the file on the server.corresponding extension)
+                                 -->    command to download the file from the FTP server.
+mget                             -->    command to download all files from the server to the computer.
+put(name of the file.corresponding extension)(name to identify the file on the server.corresponding extension)                              
+                                 -->    command to upload a file to the FTP server.
+bye                              -->    command to close the connection to the server.
+
+      
+The following commands were used in the Kali terminal:
+
+sudo service NetworkManager start -->   command to activate connections to specific networks.
+sudo ip link set wlan0 down       -->   command to turn off the network card.
+sudo iw wlan0 set type managed    -->   command to remove promiscuous mode and switch to managed type.
+sudo ip link set wlan0 up         -->   command to enable the network card.
+sudo service NetworkManager start -->   command to enable connections to specific networks.
+ifconfig                          -->   command to verify the IP address belonging to the computer.
+nmap -v -sn 192.168.1.0/24        -->   command to search for active hosts on the network.

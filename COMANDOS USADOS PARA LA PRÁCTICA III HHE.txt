@@ -1,0 +1,27 @@
+COMANDOS USADOS PARA LA PRÁCTICA III HERRAMIENTAS DE KALI I
+
+Los siguientes comandos fueron usados en la terminal Root Terminal Emulator
+
+wifite                             -->  es una herramienta para audirtar redes inalámbricas encriptadas WEP o WPA.
+nmap -v -A 192.0.0.0(dirección ip) -->  comando para la busqueda de puertos habilitados dentro de la dirección IP.
+ftp                                -->  comando que activa la transferencia de archivos.
+open                               -->  comando para acceder dentro del servidor FTP.
+(to)(dirección ip)                 -->  comando para acceder a la dirección IP del servidor FTP
+ls                                 -->  comando para acceder a la lista de archivos.
+get(nombre del archivo.extensión correspondiente)(nombre para identificar el archivo en el servidor.extensión correspondiente)
+                                   -->  comando para descargar el archivo del servidor FTP.
+mget                               -->  comando para descargar todos los archivos del servidor a la computadora.
+put(nombre del archivo.extensión correspondiente)(nombre para identificar el archivo en el servidor.extensión correspondiente)                              
+                                   -->  comando para subir un archivo al servidor FTP.
+bye                                -->  comando para cerrar la conexión con el servidor.
+
+      
+Los siguientes comandos fueron usados en la terminal Kali:
+
+sudo service NetworkManager start  -->  comando para activar conexiones a redes especificas.
+sudo ip link set wlan0 down        -->  comando para apagar la tarjeta de red.
+sudo iw wlan0 set type managed     -->  comando para quitar modo promiscuo y cambiar a tipo managed.
+sudo ip link set wlan0 up          -->  comando para habilitar la tarjeta de red.
+sudo service NetworkManager start  -->  comando para activar conexiones a redes especificas.
+ifconfig                           -->  comando para verificar la dirección IP que pertenece a la computadora.
+nmap -v -sn 192.168.1.0/24         -->  comando para buscar los host activos de la red.
